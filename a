@@ -1,0 +1,262 @@
+[33mcommit 029317ed3ea2fc6d7544d4600fe645f3b1bc73a7[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Buccaneer <139928764+p4irin@users.noreply.github.com>
+Date:   Wed Aug 9 21:03:41 2023 +0200
+
+    Add webrick to Gemfile (#405)
+
+[33mcommit c394c36090e56767f58c20f56d2fbc2d6324de5b[m
+Author: Nelson Estevão <nelsonmestevao@proton.me>
+Date:   Wed Aug 9 09:58:54 2023 +0100
+
+    docs: improve section levels
+
+[33mcommit 75a95d756efd61d1c8b035e12ca1c9da6205d9b6[m
+Author: Nelson Estevão <nelsonmestevao@proton.me>
+Date:   Wed Aug 9 09:55:31 2023 +0100
+
+    docs: fix documentation instructions
+
+[33mcommit d176347b8cd80e1892f243626987a8e1897d6e71[m
+Author: HackingHieser <Alexander.Hieser@online.de>
+Date:   Mon Aug 7 21:09:54 2023 +0200
+
+    Use jekyll:4.0 (#404)
+
+[33mcommit 7cefa9714521bd66d6b07c6ff9daafe403b06cf6[m
+Author: Nelson Estevão <nelsonmestevao@proton.me>
+Date:   Sat Aug 5 23:04:15 2023 +0100
+
+    Fix docker compose and deploy
+
+[33mcommit 15fe516dbccebdb84a83243d3ab046636e7e2c4a[m
+Author: Nelson Estevão <nelsonmestevao@proton.me>
+Date:   Sat Aug 5 22:39:26 2023 +0100
+
+    Fix traling white space
+
+[33mcommit 3926be517ac244547172fb52f8a2199ae4d6bf7d[m
+Author: Nelson Estevão <nelsonmestevao@proton.me>
+Date:   Sat Aug 5 22:24:58 2023 +0100
+
+    Add GitHub pages action
+
+[33mcommit c4ef65983ecfe7fd27c728c2fa4ec6d117735866[m
+Author: Dmitri Karpovich <bigscoop@users.noreply.github.com>
+Date:   Sat Aug 5 23:03:48 2023 +0200
+
+    Move content to docs folder and fix docker-compose(#367)
+
+[33mcommit 54d715c5c38720f37d230a3972e86306f63e96de[m
+Author: 1Haschwalth <135032626+1Haschwalth@users.noreply.github.com>
+Date:   Wed Jul 12 20:18:10 2023 +0800
+
+    Update README.md (#391)
+
+[33mcommit bb9546cfa2d0d9f99ae43963a4075fac11395d0e[m
+Author: sharath <sharath.dt@gmail.com>
+Date:   Tue Jul 4 06:57:47 2023 +0530
+
+    set the sidebar to right by default
+
+[33mcommit 80eb73d65641561bbfcb64117316047ef97c9e51[m
+Merge: 1134557 b696e74
+Author: Sharath Kumar <sharath.dt@gmail.com>
+Date:   Tue Jul 4 06:54:56 2023 +0530
+
+    Merge pull request #359 from philippart-s/sidebar-order
+    
+    feat: ✨ add choice of position for the sidebar
+
+[33mcommit 1134557fdc191b95e77d6624f63fcf463a3697f0[m
+Author: sharathdt <sharath.dt@gmail.com>
+Date:   Tue Jun 20 17:33:04 2023 +0530
+
+    add noopener to external links
+
+[33mcommit 0352e2f2792a9c8c384f5cede51c7a0a9b631191[m
+Merge: c22d6f5 a31b955
+Author: Sharath Kumar <sharath.dt@gmail.com>
+Date:   Tue Jun 20 17:29:46 2023 +0530
+
+    Merge pull request #355 from fredtux/master
+    
+    Added certifications
+
+[33mcommit c22d6f5ae9233f08b73ffdee2ed00d4aa724fe01[m
+Merge: 4e015ff f93e384
+Author: Sharath Kumar <sharath.dt@gmail.com>
+Date:   Sat Apr 29 11:51:00 2023 +0530
+
+    Merge pull request #373 from sanburnu/patch-1
+    
+    fix: Sidebar no avatar problem
+
+[33mcommit 4e015ff19d24ec4ba1706f45528d0406a755b3cd[m
+Merge: 0d8fce9 e3afbaf
+Author: Sharath Kumar <sharath.dt@gmail.com>
+Date:   Sat Apr 29 11:50:07 2023 +0530
+
+    Merge pull request #379 from NorthSecond/patch-1
+    
+    fix: A bug in the OSS contribution's link
+
+[33mcommit e3afbaf6f051154993013412e831fc16c6a48570[m
+Author: yangyf83 <yangyf83@aliyun.com>
+Date:   Fri Apr 28 10:26:05 2023 +0800
+
+    fix: A bug in the OSS contribution's link
+    
+    a typo that leads a wrong link in the part of the OSS contribution.
+
+[33mcommit f93e3847dbebc6842dda99b6a9be8ab23cedd175[m
+Author: Anıl İşcan <110693718+sanburnu@users.noreply.github.com>
+Date:   Thu Mar 23 15:32:24 2023 +0300
+
+    fix: Sidebar no avatar problem
+    
+    If the user had a name but no avatar there would be empty image tag on the previous version
+
+[33mcommit a31b955159bbb56a611380d8369c7b8fab23e61c[m
+Author: fredtux <fredtux@users.noreply.github.com>
+Date:   Sat Feb 18 12:46:27 2023 +0200
+
+    Added name and url for certifications
+
+[33mcommit 1ffc5c0459c2fc2fb8cd17aa1f366b6a449a7624[m
+Merge: 5779866 0d8fce9
+Author: Florin Dinu <fredtux@users.noreply.github.com>
+Date:   Sat Feb 18 12:21:01 2023 +0200
+
+    Merge branch 'sharu725:master' into master
+
+[33mcommit b696e746bda24f96e692ade2cdb966a2dd1dfe93[m
+Author: Stephane Philippart <wildagsx@gmail.com>
+Date:   Sun Feb 12 17:52:42 2023 +0100
+
+    feat: ✨ add choice of position for the sidebar
+
+[33mcommit 0d8fce9100abea10b53af0bd786911af5a5f2d0f[m
+Author: Rowan Molony <rowanmolony@gmail.com>
+Date:   Tue Feb 7 12:39:42 2023 +0000
+
+    Prevent overflow into dates (#245)
+    
+    Previously "MAI in Mechanical Engineering" would overflow
+    into "2014 - 2019" at certain resolutions (iPads) as the
+    'time' <div> is not separated from <h3> or 'degree'.
+    Now they are in separate containers using the 'flex'
+    css attribute to in the parent <div> and in both elements
+    to keep them in two columns
+
+[33mcommit 5779866696ed267d2914354b703ff9967685e94b[m
+Author: Florin Dinu <fredtux@users.noreply.github.com>
+Date:   Sun Jan 22 05:03:36 2023 +0200
+
+    Added certifications
+
+[33mcommit 78bb1e6580cf7d1c018a69fd02b8e368f38d3091[m
+Author: Stefan Haun <mail@tuxathome.de>
+Date:   Thu Jan 19 19:44:41 2023 +0100
+
+    Set compose version to "2" (#299)
+    
+    This docker-compose works well as a version-2 file and is available to more installations.
+    
+    Co-authored-by: Nelson Estevão <nelsonmestevao@gmail.com>
+
+[33mcommit 4e89e3cb90218003198157f240039e4394c6acf6[m
+Author: Juliano Fischer Naves <julianofischer@gmail.com>
+Date:   Thu Jan 19 14:42:52 2023 -0400
+
+    adding environment variables (#333)
+
+[33mcommit 1d5817820a5464ceac1743081e75bfa32a1cec97[m
+Author: sharath <sharath.dt@gmail.com>
+Date:   Thu Nov 17 09:34:00 2022 +0530
+
+    update .github
+
+[33mcommit 3a219d2f8b5347b23800cb4fe0823059422e920b[m
+Merge: ea5cf20 8676987
+Author: Sharath Kumar <sharath.dt@gmail.com>
+Date:   Thu Nov 17 09:32:00 2022 +0530
+
+    Merge pull request #337 from sharu725/fix-309
+    
+    Fix #309 - oss contribs
+
+[33mcommit 867698754ae42ebb3b5b3b70c1ac8b5c39848d1a[m
+Author: sharath <sharath.dt@gmail.com>
+Date:   Thu Nov 17 09:31:10 2022 +0530
+
+    Fix #309 - oss contribs
+
+[33mcommit ea5cf20e269c6902f0cebad45c683d2dfdfb6c3c[m
+Merge: d446489 d4cfa80
+Author: Sharath Kumar <sharath.dt@gmail.com>
+Date:   Thu Nov 17 08:40:08 2022 +0530
+
+    Merge pull request #324 from zhespelt/patch-1
+    
+    Update README.md
+
+[33mcommit d4cfa808269a9272ebf64ebc0ea12a9aaba9760b[m
+Merge: a8448cb d446489
+Author: Sharath Kumar <sharath.dt@gmail.com>
+Date:   Thu Nov 17 08:39:54 2022 +0530
+
+    Merge branch 'master' into patch-1
+
+[33mcommit d44648901bd996efec8b4cde14f35eca93c7bc89[m
+Author: sharath <sharath.dt@gmail.com>
+Date:   Thu Nov 17 08:36:56 2022 +0530
+
+    add local installation instructions
+
+[33mcommit a8448cbff2741a605acfc9d5452027bd58018cbe[m
+Author: zhespelt <112395585+zhespelt@users.noreply.github.com>
+Date:   Sat Oct 15 12:49:19 2022 -0700
+
+    Update README.md
+    
+    Fixed typo
+
+[33mcommit 6d8c11193c61a03b038f9d84296f41f2bcd15221[m
+Author: Maulana Kurniawan <111252819+maulana-kurniawan@users.noreply.github.com>
+Date:   Mon Aug 29 23:49:40 2022 +0700
+
+    Add title support for Education, Experiences, Interests, and Languages (#310)
+
+[33mcommit cb92af866a02b6d6db0fa18ec29ebb3673477bcc[m
+Author: sharathdt <sharath.dt@gmail.com>
+Date:   Wed Aug 10 09:01:47 2022 +0530
+
+    update gems
+
+[33mcommit 410aee9217075eb8d3d6334dcd601026a79ddbd7[m
+Merge: 9c37bdf 96ae50c
+Author: Sharath Kumar <sharath.dt@gmail.com>
+Date:   Mon Aug 8 15:42:51 2022 +0530
+
+    Merge pull request #308 from sharu725/print-layout-fix
+    
+    update print  layout wrapper
+
+[33mcommit 96ae50cb8742ff78b1079ae2db7d879d65184e44[m
+Author: sharathdt <sharath.dt@gmail.com>
+Date:   Mon Aug 8 15:42:14 2022 +0530
+
+    update print  layout wrapper
+
+[33mcommit 9c37bdfd8475e39ce7f31b1e1c1c0133a4504772[m
+Author: Sharath Kumar <sharath.dt@gmail.com>
+Date:   Mon Aug 8 15:36:22 2022 +0530
+
+    Update README.md
+
+[33mcommit a614d3c14d2cc9e87a6be441d81a5963003d35e8[m
+Merge: 89ca19e 7a318d4
+Author: Sharath Kumar <sharath.dt@gmail.com>
+Date:   Mon Aug 8 15:34:19 2022 +0530
+
+    Merge pull request #307 from sharu725/

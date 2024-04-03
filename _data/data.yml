@@ -3,263 +3,156 @@
 #
 
 sidebar:
-    position: right # position of the sidebar : left or right
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: True # set to False if you want education in main section instead of in sidebar
+  about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+  education: True # set to False if you want education in main section instead of in sidebar
 
-    # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+  # Profile information
+  name: Davi Sobrinho Labre
+  tagline: Desenvolvedor
+  avatar: profile.png  # place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
-    # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    timezone: America/Cancun Timezone
-    citizenship:
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    xing: alandoe
-    github: sharu725
-    telegram: # add your nickname without '@' sign
-    gitlab:
-    bitbucket:
-    twitter: '@webjeda'
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
-    codewars:
-    goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: http://www.africau.edu/images/default/sample.pdf
+  # Sidebar links
+  email: davisobrinho82452@gmail.com
+  phone: +55(61)99827-2223
+  timezone: Brasil/Brasília
+  citizenship: Brasileiro
+  linkedin: davi-sobrinho-labre-b37500235/
+  github: https://github.com/DaviSobrinho
+  telegram: https://t.me/DaviLabre
+  xing:
+  gitlab:
+  bitbucket:
+  twitter:
+  stack-overflow:
+  codewars:
+  goodreads:
+  pdf:
 
-    languages:
-      title: Languages
-      info:
-        - idiom: English
-          level: Native
+  languages:
+    title: Idiomas
+    info:
+      - idiom: Português
+        level: Nativo
 
-        - idiom: French
-          level: Professional
+      - idiom: Inglês
+        level: Profissional
 
-        - idiom: Spanish
-          level: Professional
+  interests:
+    title: Interesses
+    info:
+      - item: Produção musical
+        link:
 
-    interests:
-      title: Interests
-      info:
-        - item: Climbing
-          link:
+      - item: Video-Games
+        link:
 
-        - item: Snowboarding
-          link:
-
-        - item: Cooking
-          link:
+      - item: Basquete
+        link:
 
 career-profile:
-    title: Career Profile
-    summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+  title: Perfil
+  summary: |
+    Me chamo Davi, tenho 22 anos, pós-graduando em desenvolvimento Web e Mobile pelo Senac-SP e graduado em análise e desenvolvimento de sistemas pela UCB.
+    Sou um desenvolvedor com maiores experiências em Back-End e Mobile através projetos desenvolvidos majoritariamente em Kotlin, Java e JavaScript.
+    Amo tecnologia, lógica, matemática e solucionar problemas, acredito que toda a criatividade e possibilidades que a programação trazem combinam
+    muito com minha capacidade analítica e voracidade. Logo, me juntei à programação em 2022 e desde então pretendo
+    seguir na área e me aperfeiçoar cada vez mais como desenvolvedor.
+
 education:
-    title: Education
-    info:
-      - degree: MSc in Computer Science
-        university: University of London
-        time: 2011 - 2012
-        details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - degree: BSc in Applied Mathematics
-        university: Bristol University
-        time: 2007 - 2011
-        details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
+  title: Formação
+  info:
+    - degree: Pós-Graduação - Engenharia da qualidade de software
+      university: Senac - São Paulo
+      time: Mar 2024 - Mar 2025
+      details: |
+        Pós-graduação com foco no desenvolvimento Web com JS e de aplicações Mobile com Kotlin, Switf e Flutter pelo Senac-SP.
+    - degree: Graduação - Análise e desenvolvimento de sistemas 
+      university: Universidade Católica de Brasília
+      time: Jan 2022 - Dez 2023
+      details: |
+        Curso de nível superior em tecnologia, focado no desenvolvimento de sistemas e aplicativos.
+    - degree: Cursos online Alura onDemand
+      university: Alura
+      time: Mar 2022 - Mar 2024
+      details: |
+        Diversos cursos referentes a TI, em especial cursos de programação com Kotlin, Firebase, Springboot, Java, JavaScript, POO, mySQL, noSQL, VBA, entre outros.
+    - degree: Ensino Médio/Técnico (técnico em manutenção automotiva)
+      university: Sesi Taguatinga/Senai Taguatinga
+      time: Jan 2016 - Dez 2018
+      details: |
+        Ensino médio conjunto ao ensino técnico com formação de técnico em manutenção automotiva que realizei através de bolsa de estudos integral.
 
 experiences:
-    title: Experiences
-    info:
-      - role: Lead Developer
-        time: 2015 - Present
-        company: Startup Hubs, San Francisco
-        details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-          enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-          error sit voluptatem accusantium doloremque laudantium, totam rem
-          aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-          architecto beatae vitae dicta sunt explicabo.
-            - Bullet point
-            - Bullet point
-      - role: Senior Software Engineer
-        time: 2014 - 2015
-        company: Google, London
-        details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - role: UI Developer
-        time: 2012 - 2014
-        company: Amazon, London
-        details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
+  title: Experiências
+  info:
+    - role: Estagiário de TI
+      time: Abr 2023 - Dez 2023
+      company: Cebraspe
+      details: |
+        Participei com serviços de automação, analisando e desenvolvendo sistemas e interfaces. Utilizei ferramentas como PowerAutomate, PowerApps, PowerBI, Figma, SharePoint e automações avançadas com VBA.
+    - role: Instalador de rastreadores veiculares
+      time: Jan 2019 - Dez 2021
+      company: Wanderley Rastreadores
+      details: |
+        Atuava no negócio do meu pai, realizando manutenção/instalação/configuração de rastreadores veiculares, além de fornecer suporte ao usuário.
 
-certifications:
-      title: Certifications
-      list:
-        - name: CV Builder
-          start: 2020
-          end: 2021
-          organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.google.com
-          credentialname: Google
-          details: |
-            Details about cert. Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh.
-            Aenean fermentum, felis vulputate suscipit accumsan,
-            sem enim bibendum augue, sed convallis arcu lacus at dui.
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-            Praesent venenatis erat non augue suscipit consectetur.
-
-            Second paragraph. Sed eleifend enim ante, vitae efficitur purus
-            fringilla vel. Ut euismod, sem sed vulputate venenatis,
-            justo diam viverra velit, sed rhoncus leo leo eu justo.
-            Suspendisse placerat risus ante, sed porta nisi blandit at.
-        - name: Git learning
-          start: 2019
-          end:
-          organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.github.com
-          credentialname: Github
-          details: |
-            Older certification. Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh.
-            Aenean fermentum, felis vulputate suscipit accumsan,
-            sem enim bibendum augue, sed convallis arcu lacus at dui.
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-            Praesent venenatis erat non augue suscipit consectetur.
 
 projects:
-    title: Projects
-    intro: >
-      You can list your side projects in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
-
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
-
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+  title: Projetos
+  intro: >
+    Os projetos a seguir foram desenvolvidos por mim desde 2022 e estão todos disponíveis no meu Github:
+  assignments:
+    - title: Ensinativa - (Kotlin+Firebase)
+      link: "https://github.com/DaviSobrinho/Ensinativa"
+      tagline: "Meu mais recente aplicativo, comecei a desenvolvê-lo no início de 2024, é um aplicativo de helpdesk mobile, feito com Kotlin e Firebase, gratuito, com chamadas e chats em tempo real para resolução de problemas de tecnologia gerais de qualquer pessoa."
+    - title: User/Permission CRUD (Typescript+NestJS)
+      link: "https://github.com/DaviSobrinho/NesJsUsersCrudCleanArch"
+      tagline: "API Restful com um CRUD de usuários, permissões e sistema de loggin, feita usando NestJS e Prisma ORM, construída com os conceitos de Clean architecture durante o 1° semestre de 2024"
+    - title: VollMedApi - (Java+Springboot)
+      link: "https://github.com/DaviSobrinho/VollMedAPI"
+      tagline: "API RESTful com Java e Sprinboot de uma clínica, nela pode-se agendar e cancelar consultas além de possuir dois CRUD's, um de pacientes e outro de médicos. Desenvolvido no 1º semestre de 2023."
+    - title: Pomos - (Kotlin)
+      link: "https://github.com/DaviSobrinho/Projeto-Pomos"
+      tagline: "Aplicativo mobile em Kotlin que representa uma agenda atrelada a técnica de Pomodoro, através dela você consegue cronometrar suas atividades e obter maior eficiência. Desenvolvido no 2º semestre de 2022."
+    - title: YoursBank (JavaScript+Express)
+      link: "https://github.com/DaviSobrinho/YoursBank"
+      tagline: "Site desenvolvido em JavaScript, desenvolvido no 1° semestre de 2023, consiste em um sistema em JavaScript que permite que usuários criem contas e façam transações entre elas."
 
 oss:
-    title: OSS Contributions
-    intro: >
-      You can list your open source software contributions in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    contributions:
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+  title:
+  intro:
+  contributions:
 
 publications:
-    title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
-    papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
-
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
-
+  title:
+  intro:
+  papers:
+  
 skills:
-    title: Skills &amp; Proficiency
+  title: Competências
 
-    toolset:
-      - name: Python & Django
-        level: 98%
+  toolset:
+    - name: Kotlin/Java
+    
+    - name: JavaScript/TypeScript
 
-      - name: Javascript & jQuery
-        level: 98%
+    - name: HTML/CSS/XML
+    
+    - name: SQL/NoSQL
 
-      - name: Angular
-        level: 98%
+    - name: Firebase/Springboot
+    
+    - name: Node.js/NestJS
+    
+    - name: MVVM/MVC/Clean architecture
 
-      - name: HTML5 & CSS
-        level: 95%
+    - name: Testes automatizados e unitários
 
-      - name: Ruby on Rails
-        level: 85%
+    - name: Git/Github
 
-      - name: Sketch & Photoshop
-        level: 60%
+    - name: Metodologias ágeis
+
+    - name: Pacote Office/VBA/PowerPlatform
 
 footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+  Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
