@@ -52,20 +52,20 @@ sidebar:
 career-profile:
   title: Perfil
   summary: |
-    Me chamo Davi, tenho 22 anos, pós-graduando em desenvolvimento Web e Mobile pelo Senac-SP e graduado em análise e desenvolvimento de sistemas pela UCB.
-    Sou um desenvolvedor com maiores experiências em Back-End e Mobile através projetos desenvolvidos majoritariamente em Kotlin, Java e JavaScript.
-    Amo tecnologia, lógica, matemática e solucionar problemas, acredito que toda a criatividade e possibilidades que a programação trazem combinam
-    muito com minha capacidade analítica e voracidade. Logo, me juntei à programação em 2022 e desde então pretendo
-    seguir na área e me aperfeiçoar cada vez mais como desenvolvedor.
+    Me chamo Davi, tenho 23 anos, pós-graduando em desenvolvimento Web e Mobile pelo Senac-SP e graduado em análise e desenvolvimento de sistemas pela UCB.
+    Sou um desenvolvedor com maiores experiências com desenvolvimento Android e Back-End, através de projetos desenvolvidos majoritariamente em Kotlin, Java, JavaScript e TypeScript,
+    além ter desenvolvido automações com ferramentas como Puppeteer e a PowerPlatform. Amo tecnologia, lógica, matemática e solucionar problemas,
+    acredito que toda a criatividade e possibilidades que a programação trazem combinam muito com minha capacidade analítica e voracidade.
+    Logo, me juntei à programação em 2022 e desde então pretendo seguir na área e me aperfeiçoar cada vez mais como desenvolvedor.
 
 education:
   title: Formação
   info:
     - degree: Pós-Graduação - Engenharia da qualidade de software
       university: Senac - São Paulo
-      time: Mar 2024 - Mar 2025
+      time: Abr 2024 - Abr 2025
       details: |
-        Pós-graduação com foco no desenvolvimento Web com JS e de aplicações Mobile com Kotlin, Switf e Flutter pelo Senac-SP.
+        Especialização EAD com foco no desenvolvimento e na engenharia e manutenção da qualidade do software pelo Senac-SP.
     - degree: Graduação - Análise e desenvolvimento de sistemas 
       university: Universidade Católica de Brasília
       time: Jan 2022 - Dez 2023
@@ -85,17 +85,21 @@ education:
 experiences:
   title: Experiências
   info:
+    - role: Desenvolvedor Fullstack
+      time: Abr 2024 - Até o momento
+      company: AGOS - Acessoria e contabilidade
+      details: |
+        Sou responsável pelo desenvolvimento de automações(WebScrapping), de um sistema de software interno e pela infraestrutura. Utilizo ferramentas como Node.js, Puppeteer, Figma, Js, TypeScript, AWS, HyperV.
+    - role: Desenvolvedor Android
+      time: Mar 2024 - Abr 2024
+      company: Toolsty - Consultoria em tecnologia
+      details: |
+        Fui responsável pela manutenção e desenvolvimento de aplicações Android de grande porte. Utilizei ferramentas como Android Studio, Kotlin, JetpackCompose, Scrum, Jira, Figma.
     - role: Estagiário de TI
       time: Abr 2023 - Dez 2023
-      company: Cebraspe
+      company: CEBRASPE
       details: |
         Participei com serviços de automação, analisando e desenvolvendo sistemas e interfaces. Utilizei ferramentas como PowerAutomate, PowerApps, PowerBI, Figma, SharePoint e automações avançadas com VBA.
-    - role: Instalador de rastreadores veiculares
-      time: Jan 2019 - Dez 2021
-      company: Wanderley Rastreadores
-      details: |
-        Atuava no negócio do meu pai, realizando manutenção/instalação/configuração de rastreadores veiculares, além de fornecer suporte ao usuário.
-
 
 projects:
   title: Projetos
@@ -142,7 +146,7 @@ skills:
 
     - name: Firebase/Springboot
     
-    - name: Node.js/NestJS
+    - name: Node.js/NestJS/Puppeteer
     
     - name: MVVM/MVC/Clean architecture
 
